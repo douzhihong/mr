@@ -1,24 +1,24 @@
 server:
   port: 8766
-# spring:
-#   redis:
-#     host: localhost
-#     database: 0
-#     port: 6379
-#   datasource:
-#     name: mysql
-#     url: jdbc:mysql://localhost:3306/shop?ullNamePatternMatchesAll=true&serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8
-#     username: root
-#     password: root
-#   freemarker:
-#     allow-request-override: false
-#     cache: false
-#     check-template-location: true
-#     charset: UTF-8
-#     suffix: .ftl
-#     templateLoaderPath: classpath:/templates/
-#     content-type: text/html
-#     expose-request-attributes: true
+spring:
+  redis:
+    host: localhost
+    database: 0
+    port: 6379
+  datasource:
+    name: mysql
+    url: jdbc:mysql://localhost:3306/shop?ullNamePatternMatchesAll=true&serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    suffix: .ftl
+    templateLoaderPath: classpath:/templates/
+    content-type: text/html
+    expose-request-attributes: true
 
 
 # mybatis:
